@@ -1,7 +1,7 @@
 local gameId = game.PlaceId
 
 local games = {
-    [11158043705] = "https://raw.githubusercontent.com/YourRepo/Baddies.lua" -- Baddies
+    [11158043705] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua" -- Baddies
 }
 
 local function createNotification(text, notifType)
