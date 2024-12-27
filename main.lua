@@ -2,7 +2,8 @@ local gameId = game.PlaceId
 
 local games = {
     [11158043705] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
-    [112564920810158] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua" -- Baddies
+    [112564920810158] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
+    [4864117649] = "" -- Untitled Tag Game
 }
 
 local function createNotification(text, notifType)
