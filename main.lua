@@ -1,15 +1,15 @@
 local gameId = game.PlaceId
 
 local games = {
-    [11158043705] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
-    [112564920810158] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
-    [4864117649] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/untitledtaggame.lua", -- Untitled Tag Game
-    [142823291] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/mm2.lua" -- Murder Mystery 2
+    [11158043705] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/main/Baddies.lua", -- Baddies
+    [112564920810158] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/main/Baddies.lua", -- Baddies 
+    [4864117649] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/main/untitledtaggame.lua", -- Untitled Tag Game
+    [142823291] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/main/mm2.lua" -- Murder Mystery 2
 }
 
 local function createNotification(text, notifType)
     local screenGui = Instance.new("ScreenGui")
-    screenGui.Parent = game.CoreGui
+    screenGui.Parent = game:GetService("CoreGui")
     
     local frame = Instance.new("Frame")
     frame.Size = UDim2.new(0, 300, 0, 60)
@@ -24,7 +24,7 @@ local function createNotification(text, notifType)
     
     local iconMap = {
         success = "✅",
-        error = "❌",
+        error = "❌", 
         warning = "⚠️",
         info = "ℹ️"
     }
