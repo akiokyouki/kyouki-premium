@@ -3,7 +3,7 @@ local gameId = game.PlaceId
 local games = {
     [11158043705] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
     [112564920810158] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/Baddies.lua", -- Baddies
-    [4864117649] = "", -- Untitled Tag Game
+    [4864117649] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/untitledtaggame.lua", -- Untitled Tag Game
     [66654135] = "https://raw.githubusercontent.com/akiokyouki/kyouki-premium/refs/heads/main/mm2.lua" -- Murder Mystery 2
 }
 
